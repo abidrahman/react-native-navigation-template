@@ -1,4 +1,5 @@
-# Navigation Template Project for react-native Developments
+# Navigation Template Project
+## for react-native developments
 
 This code is provided as a template project for developers wishing to create a react-native project that uses basic navigation between screens, using the generic [Navigator component](https://facebook.github.io/react-native/docs/navigator.html).
 
