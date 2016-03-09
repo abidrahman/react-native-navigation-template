@@ -70,7 +70,7 @@ var NavigationBarRouteMapper = {
   Title(route, navigator, index, navState) {
     return (
       <Text style={styles.navBarText}>
-        Navigation App Title
+        Navigation App
       </Text>
     );
   }
