@@ -23,4 +23,28 @@ This will install the dependencies required by the project. Once completed - ass
 $ react-native run-android
 ```
 
+## iOS Instructions
+
+Setup the react-native environment for iOS development as described in the [guides](https://facebook.github.io/react-native/docs/getting-started.html).
+
+Navigate to the directory into which you have cloned this project and execute the following command:
+
+```
+$ npm install
+```
+
+This will install the dependencies required by the project. Once completed - assuming you have the iOS Xcode developer tools installed - you can then execute the following command to open the project in Xcode.
+
+```
+$ open ios/ReactNativeNavigationTemplate.xcodeproj
+```
+
+Within Xcode you can select a target device to run your project upon and then click the 'play' button to build and deploy your project onto the emulator. Alternatively, you can execute the following command (assuming that Xcode development tools are available on your system path):
+
+```
+$ react-native run-ios
+```
+
+This will also build the project and deploy to the default emulator, without launching the Xcode GUI.
+
 Have fun!
