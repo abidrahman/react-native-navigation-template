@@ -41,8 +41,11 @@ var MainScreen = React.createClass({
 		return (
 			<View style={styles.valueProp}>
 				<Text style={styles.valuePropText}>
-					Value from login screen: {this.props.valueProp}
+					Value passed from login screen:
 				</Text>
+        <Text style={styles.valuePropText}>
+          {this.props.valueProp}
+        </Text>
 			</View>
 		)
   }
@@ -100,7 +103,7 @@ var styles = StyleSheet.create({
 		left: 5,
 		flex: 1
 	},
-	valuePropText: {
+  valuePropText: {
 		fontSize: 18,
 		fontWeight: 'bold',
 		color: '#000000'
