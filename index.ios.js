@@ -61,7 +61,7 @@ class NavigationApp extends Component {
       <View style={{flex: 1, alignItems: 'stretch', justifyContent: 'center'}}>
         <TouchableOpacity style={{flex: 1, alignItems: 'center', justifyContent: 'center'}} onPress={() => navigator.pop()}>
           <Text style={{color: 'red', fontWeight: 'bold'}}>Unable to render requested screen</Text>
-          <Text style={{color: 'red', fontWeight: 'bold'}}>Use back button to return or tap here</Text>
+          <Text style={{color: 'red', fontWeight: 'bold'}}>Tap here to return</Text>
         </TouchableOpacity>
       </View>
     );
