@@ -7,6 +7,8 @@ Provided is a basic routing setup with an initial route and two additional scree
 
 Additionally, an example of how to pass values between screens using properties.
 
+Hoping to add an example of some unit tests to complement the template in the near future. If you would like to fork your own branch and contribute to the template project, please feel free to do so. I would be most welcoming of your contributions toward a simple "goto" react-native sample project.
+
 ## Android Instructions
 
 Setup the react-native environment for Android development as described in the [guides](https://facebook.github.io/react-native/docs/android-setup.html).
